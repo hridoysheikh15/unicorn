@@ -4,8 +4,8 @@
         <div class="head">
             <div class="head-item">
                 <div class="logo">
-                    <img src="./asset/image/unicorn-removebg-preview.png" alt="logo">
-                    <img src="./asset/image/unicorn.png" alt="logo">
+                    <img src="../asset/image/unicorn-removebg-preview.png" alt="logo">
+                    <img src="../asset/image/unicorn.png" alt="logo">
                 </div>
                 <div class="navber">
                     <div class="nav-burger-icon">

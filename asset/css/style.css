@@ -85,7 +85,7 @@
 /* header css  */
 
 header {
-    padding: 1rem var(--padding);
+    padding-block: 1rem;
     position: fixed;
     width: 100vw;
     z-index: 100;
@@ -300,6 +300,7 @@ header {
     color: var(--color-dark);
     font-family: var(--poppins);
     text-align: justify;
+    line-height: 1.75rem;
 }
 
 .about-slogan {
@@ -323,6 +324,7 @@ header {
 
 .service-content {
     margin: var(--margin-sm);
+    padding: 1rem;
     display: var(--flex);
     background-color: var(--color-light);
     border-radius: 15px;
@@ -355,6 +357,10 @@ header {
     margin-block: auto;
 }
 
+.service-paragraph {
+    margin: auto;
+}
+
 .service-heading {
     font-weight: 700;
     font-family: var(--lato);
@@ -378,7 +384,7 @@ header {
 .service-paragraph-content {
     font-family: var(--poppins);
     text-align: justify;
-    line-height: 1.25;
+    line-height: 1.75;
     text-transform: capitalize;
 }
 
@@ -422,6 +428,8 @@ header {
     color: var(--color-dark);
     font-family: var(--poppins);
     text-align: justify;
+    line-height: 1.75rem;
+    margin: auto;
 }
 
 .choose-card:hover .choose-card-paragraph {
@@ -503,6 +511,10 @@ header {
     font-size: var(--font-md);
 }
 
+.step-paragraph {
+    line-height: 1.75rem;
+}
+
 /* achivement section */
 
 .our-achivement {
@@ -562,6 +574,7 @@ header {
     font-family: var(--poppins);
     text-align: justify;
     font-size: var(--font-sm);
+    line-height: 1.85rem;
 }
 
 /* testmonial css */
@@ -639,6 +652,7 @@ header {
     font-size: var(--font-sm);
     text-align: justify;
     text-transform: capitalize;
+    line-height: 1.75rem;
 }
 
 .card-item-head {
@@ -781,7 +795,10 @@ footer {
 
 @media (max-width: 500px) {
     :root {
+        --padding: initial;
+        --margin-sm: 20px;
         --font-md: 24px;
+        --font-lg: 32px;
         --img-sm: 25%;
         --flex: block;
     }
@@ -803,11 +820,18 @@ footer {
     .card-item{
         text-align: center;
         width: 100%;
-        margin: 1remgit  0;
+        margin: 1rem 0;
     }
+
     .achivement-prove{
         text-align: center;
     }
+
+    .clint-img img{
+        width: 100px;
+        height: 100px;
+    }
+
     .industry-line-row {
         padding: 0;
     }
