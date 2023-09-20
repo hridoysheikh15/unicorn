@@ -3,6 +3,9 @@
 window.addEventListener("load", ()=>{
     document.getElementById("preloader").style.display = "none";
 })
+setTimeout(() => {
+    document.getElementById("preloader").style.display = "none";
+}, 3000);
 
 // navber animation 
 
