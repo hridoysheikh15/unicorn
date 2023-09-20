@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+.topContactInfo {
+  display: flex;
+  background-color: rgb(47, 0, 255);
+  justify-content: space-between;
+}
+
+.leftTop {
+  display: flex;
+}
+
+.logo{
+  width: 200px;
+}
+
+.leftTop a,
+.leftTop address {
+  color: #fff;
+  border-left: 2px solid rgb(124, 165, 255);
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  margin: 0;
+}
+
+.rightTop a i {
+  font-size: 28px;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.gallary {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-color: #000000;
+  animation: gallary alternate infinite 20s;
+  position: relative;
+}
+
+.midTag {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: tagText 10s infinite alternate;
+}
+
+@keyframes tagText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes gallary {
+  0% {
+    background-image: linear-gradient(#00000090, #00000090),
+      url(../image/img-4.jpg);
+  }
+
+  25% {
+    background-image: linear-gradient(#00000090, #00000090),
+      url(../image/img-1.webp);
+  }
+
+  50% {
+    background-image: linear-gradient(#00000090, #00000090),
+      url(../image/img-3.jpg);
+  }
+
+  75% {
+    background-image: linear-gradient(#00000090, #00000090),
+      url(../image/img-2.JPG);
+  }
+
+  100% {
+    background-image: linear-gradient(#00000090, #00000090),
+      url(../image/img-1.webp);
+  }
+}
+
+.serviceHover:hover {
+  transition: 0.5s all ease;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px;
+}
+
+.textBlack {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.btnStyle {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 172, 211),
+    rgb(247, 241, 191)
+  );
+  font-weight: 500 !important;
+}
+
+.btnStyle:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(248, 211, 227),
+    rgb(247, 241, 191)
+  );
+}
+
+.backgroundAbout {
+  background-image: url(../image/giphy.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.about {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+cite q {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resLogo{
+  filter: saturate(0);
+    height: 50px !important;
+}
+
+.resLogo:hover{
+  filter: saturate(1);
+}
+
+.footer {
+  background-color: #1d1d1d;
+  position: relative;
+}
+
+.footerTop {
+  color: rgb(255, 255, 203);
+}
+
+.googleMap {
+  width: 300px;
+  height: 250px;
+}
+
+.bord{
+    margin-left: 7px;
+}
+
+.fNav{
+    top: 10px;
+    position: absolute;
+    right: 150px;
+    display: block;
+    text-align: center;
+  }
+
+  .cop{
+    font-size: 15px;
+    display: flex;
+  }
+
+  .fNav ul a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(210, 212, 214);
+  }
+
+  .fNav ul a li:hover{
+    border-bottom: 2px solid #25a3dd;
+    transition: 0.3s all ease;
+  }
+
+  /* new footer css */
+
+  .footerStart{
+    background-color: #1d1d1d;
+    color: #fff;
+  }
+
+  .newFooter{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section1, .section2, .section3 {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .section2 ul, .section3 ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .section2 ul li a, .section3 ul li a{
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+
+  .section2 ul li a:hover, .section3 ul li a:hover{
+    color: goldenrod;
+  }
+
+  .owner{
+    margin: 0;
+  }
+
+  .owner a{
+    text-decoration: none;
+    color: goldenrod;
+  }
+@media (max-width: 1025px) {
+    .googleMap {
+        width: 300px;
+    }
+}
+
+@media (max-width: 920px) {
+  .serviceCard {
+    padding: 15px;
+  }
+
+  .card-body .skill {
+    font-size: 20px;
+  }
+        
+  .map {
+    display: none;
+  }
+}
+
+@media (max-height: 699px) {
+  .card-body .skill {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .newFooter{
+    display: block;
+  }
+}
+
+@media (max-width: 405px) {
+    .mail{
+        word-break: break-all;
+    }
+    .textBlack{
+      font-size: 15px;
+    }
+    .about{
+      font-size: 12px;
+    }
+    .bord{
+      margin: 0;
+      font-size: 15px !important;
+    }
+    .bord p{
+      font-size: 15px !important;
+    }
+}

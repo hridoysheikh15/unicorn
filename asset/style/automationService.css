@@ -1,0 +1,146 @@
+.portTop {
+  height: 500px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../image/smart-3871774_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgknow {
+  background-color: rgb(234, 235, 236);
+}
+
+.portfoliyoData {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.fontFamily {
+  padding: 3rem;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.blog {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.shortServ {
+  position: relative;
+}
+
+.shortServ::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  content: " ";
+  background-image: linear-gradient(to bottom, rgb(167, 2, 2), rgb(253, 82, 2));
+}
+
+.offer {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
+  color: rgb(119, 119, 119);
+}
+
+.card-title {
+  font-family: "Libre Bodoni", serif;
+}
+
+.card-body {
+  background-color: rgb(19, 18, 18);
+  color: rgb(199, 198, 198);
+}
+
+.card-body img {
+  filter: saturate(0) !important;
+}
+
+.card-body img:hover {
+  filter: saturate(1) !important;
+}
+
+.motivate {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../image/dedicated-win-section.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.textColor {
+  color: rgb(233, 234, 235);
+}
+
+.mot {
+  position: relative;
+}
+
+.motCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+}
+.reportS {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url(https://img.freepik.com/premium-photo/automation-software-technology-process-system-business-concept-hand-hold-white-smartphone-with-digital-hologram-circular-diagram-sign-city-dark-blurred-background-innovation-big-data-technology_486333-4040.jpg?w=826);
+}
+
+@media (max-width: 599px) and (min-width: 400px) {
+  .backColor {
+    padding: 1rem;
+  }
+
+  .fontFamily {
+    padding: 1rem;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .portfoliyoData {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .comments {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .portfoliyoData {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .blog {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .fontFamily {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .reportS {
+    display: none;
+  }
+}

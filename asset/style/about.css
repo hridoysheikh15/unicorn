@@ -1,0 +1,59 @@
+.aboutTop {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../image/pexels-vojtech-okenka-392018.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+}
+
+.midTag {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+.textShadow {
+  text-shadow: 4px 4px 2px #2b2b2b;
+}
+
+.midTag .text-center {
+  font-family: "Playfair Display", serif;
+}
+
+.backgroundAbout {
+  background-image: url(../image/giphy.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.mission {
+  background-color: #f6f6f6;
+}
+
+.missionLine {
+  font-family: "Playfair Display", serif;
+}
+
+.icons {
+  color: #b90483;
+}
+
+.cardHover:hover {
+  box-shadow: 1px 1px 5px 1px;
+  transition: 0.5s all ease;
+}
+
+.manag {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 370px) {
+  .aboutfs{
+    display: none;
+  }
+}

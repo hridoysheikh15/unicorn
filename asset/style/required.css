@@ -1,0 +1,247 @@
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navb ul {
+  margin: 0;
+  padding: 30px;
+}
+
+.navb {
+  position: sticky;
+  display: inline;
+  text-align: right;
+}
+
+.resMenu {
+  display: none !important;
+}
+
+.navb ul li {
+  font-size: 25px;
+  display: inline;
+  margin-right: 27px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+.navb ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navb ul a li:hover {
+  border-bottom: 2px solid rgb(16, 40, 175);
+}
+
+.sLogo{
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .navb {
+    display: none;
+    position: relative;
+  }
+
+  .headerNav .w-25 {
+    width: 250px !important;
+  }
+
+  .navb ul {
+    top: 50px;
+    position: absolute;
+    right: -150px;
+    display: block;
+    z-index: 1;
+    background-color: #f2aa3d;
+    text-align: center;
+  }
+
+  .navb ul a li {
+    display: block;
+    border: 1px solid #000;
+    width: 150px;
+    margin: 10px;
+  }
+
+  .resMenu {
+    display: block !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .logo{
+    display: none;
+  }
+  .sLogo{
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 920px) {
+  .navb ul a li{
+    font-size: 15px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 699px) {
+  .resLogo {
+    max-width: 100px !important;
+  }
+}
+
+/* gallary section  */
+
+.gallary {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-color: #000000;
+  animation: gallary alternate infinite 20s;
+  position: relative;
+}
+
+.midTag {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: tagText 10s infinite alternate;
+}
+
+.textShadow {
+  text-shadow: 4px 4px 2px #2b2b2b;
+}
+
+/* about experience */
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.background {
+  background-image: url(https://as2.ftcdn.net/v2/jpg/03/04/03/59/1000_F_304035981_72CABrjuWwCRLZ8ZqM2rvcsH2kltvbpt.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.animationLeft {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+.expDetails{
+  font-size: 1.5rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 370px) {
+  .exp{
+    font-size: 20px !important;
+  }
+  .expDetails{
+    font-size: 15px;
+  }
+}
+
+/* about service  */
+
+.card-body .bi {
+  font-size: 65px;
+}
+
+.card-body .bi:hover {
+  color: rgb(0, 132, 255);
+  transition: 0.3s all ease-in;
+}
+
+.service:hover {
+  box-shadow: 0px 1px 5px 0px;
+}
+
+.card-body .skill {
+  font-size: 30px;
+}
+
+.card-body .skill:hover {
+  color: rgb(0, 132, 255);
+  transition: 0.3s all ease;
+  font-family: "Inconsolata", monospace;
+}
+
+@media (max-width: 310px) {
+  .card-body .skill{
+    font-size: 20px;
+  }
+}
+
+/* footer css  */
+
+.footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(77, 76, 77),
+    rgb(56, 56, 56),
+    rgb(26, 26, 26)
+  );
+}
+
+/* footer nav  */
+
+.footer{
+    position: relative;
+}
+
+.fNav{
+    top: 1px;
+    position: absolute;
+    right: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .fNav ul a{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px;
+    color: rgb(210, 212, 214);
+  }
+
+  .fNav ul a li:hover{
+    border-bottom: 2px solid #25a3dd;
+    transition: 0.3s all ease;
+  }
+
+  @media (max-width: 600px) {
+    .fNav{
+      display: none;
+    }
+  }
+
+
+  /* report responsive css  */
+
+  @media (max-width: 767px) {
+    .reportS{
+      height: 750px;
+    }
+  }

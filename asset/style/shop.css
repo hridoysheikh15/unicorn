@@ -1,0 +1,44 @@
+.textEffect:hover{
+    border-bottom: 2px solid #363636;
+}
+
+.searchBox{
+    position: relative;
+}
+
+.searchBtn{
+    background-color: rgb(19, 207, 82);
+    font-family: sans-serif;
+    border: none;
+    color: #eeeded;
+}
+
+.searchBtn:hover{
+    border: 1px solid #272727;
+    transition: 0.5s ease;
+}
+
+.searchImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.model{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.modelImg{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.modelbg{
+    width: 100%;
+}

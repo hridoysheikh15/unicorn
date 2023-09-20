@@ -1,0 +1,80 @@
+.porTop {
+    height: 500px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url(https://img.freepik.com/free-vector/tiny-people-testing-quality-assurance-software-isolated-flat-vector-illustration-cartoon-character-fixing-bugs-hardware-device-application-test-it-service-concept_74855-10172.jpg?w=740&t=st=1681035305~exp=1681035905~hmac=9c7466271e6bd7c230fcda48da8df668157ff674150743b0e791583c4da9693f);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgknow {
+    background-color: rgb(234, 235, 236);
+  }
+
+  .blog {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .shortServ {
+    position: relative;
+  }
+  
+  .shortServ::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    content: " ";
+    background-image: linear-gradient(to bottom, rgb(167, 2, 2), rgb(253, 82, 2));
+  }
+
+  .portfoliyoData{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .fontFamily{
+    font-family: "Roboto", sans-serif;
+  }
+
+  .reportS{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzRsCYaE5YuGUUbK56LznIjSAvtqLEa7LbWQ&usqp=CAU);
+  }
+
+  @media (max-width: 599px) and (min-width: 400px) {
+    .backColor{
+      padding: 1rem;
+    }
+
+    .comments{
+      padding: 0.75rem;
+    }
+  }
+
+
+  @media (max-width: 399px) {
+    .portfoliyoData{
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .blog{
+      font-size: 12px;
+      padding: 5px;
+    }
+
+    .fontFamily{
+      font-size: 12px;
+    }
+
+    .reportS{
+      display: none;
+    }
+    }

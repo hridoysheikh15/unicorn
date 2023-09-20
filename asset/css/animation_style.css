@@ -1,0 +1,45 @@
+@keyframes underline_anime {
+    0% {
+        width: 20%;
+    }
+
+    10% {
+        width: 60%;
+    }
+
+    40% {
+        width: 55%;
+    }
+
+    65% {
+        width: 100%;
+    }
+
+    95% {
+        width: 20%;
+    }
+}
+
+@keyframes scroller {
+    0% {
+        height: 20%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    100% {
+        height: 20%;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
