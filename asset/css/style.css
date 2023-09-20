@@ -85,7 +85,7 @@
 /* header css  */
 
 header {
-    padding: 1rem var(--padding);
+    padding-block: 1rem;
     position: fixed;
     width: 100vw;
     z-index: 100;
