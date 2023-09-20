@@ -113,11 +113,11 @@ header {
     align-items: center;
 }
 
-.logo:first-child{
+.logo img:first-child{
     display: block;
 }
 
-.logo:last-child{
+.logo img:last-child{
     display: none;
 }
 
@@ -785,12 +785,16 @@ footer {
         --img-sm: 25%;
         --flex: block;
     }
-    .logo:first-child{
+    .logo img:first-child{
         display: none;
     }
+
+    .logo img{
+        width: initial;
+    }
     
-    .logo:last-child{
-        display: block ;
+    .logo img:last-child{
+        display: block;
     }
     .card-top {
         flex-direction: column;
@@ -799,7 +803,7 @@ footer {
     .card-item{
         text-align: center;
         width: 100%;
-        margin: auto;
+        margin: 1remgit  0;
     }
     .achivement-prove{
         text-align: center;
