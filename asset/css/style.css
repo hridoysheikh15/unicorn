@@ -206,6 +206,7 @@ header {
 /* our main work section css  */
 
 .main-work-section {
+    padding-block: 3rem;
     background-color: #f9f9f9;
 }
 
@@ -262,6 +263,7 @@ header {
     padding-block: var(--margin-sm);
     text-align: justify;
     font-family: var(--poppins);
+    line-height: 1.75rem;
 }
 
 .card-top-image img,
@@ -270,6 +272,10 @@ header {
 }
 
 /* about css here  */
+
+.about-content{
+    padding-block: 3rem;
+}
 
 .about-head-tag {
     font-size: var(--font-lg);
@@ -323,7 +329,7 @@ header {
 }
 
 .service-content {
-    margin: var(--margin-sm);
+    margin-block: var(--margin-sm);
     padding: 1rem;
     display: var(--flex);
     background-color: var(--color-light);
@@ -709,6 +715,10 @@ header {
     justify-content: center;
 }
 
+.couple-industry {
+    display: flex;
+}
+
 .industry-details {
     margin-inline: 4vw;
     text-align: center;
@@ -737,6 +747,14 @@ footer {
 .footer-content-item {
     display: var(--flex);
     justify-content: space-around;
+}
+
+.footer-item {
+    padding: 10px;
+}
+
+.footer-company-info img{
+    width: 100%;
 }
 
 .footer a{
@@ -813,6 +831,15 @@ footer {
     .logo img:last-child{
         display: block;
     }
+
+    .about-content{
+        text-align: center;
+    }
+
+    .about-mid-blog{
+        padding: 10px;
+    }
+
     .card-top {
         flex-direction: column;
         row-gap: 20px;
@@ -835,9 +862,23 @@ footer {
     .industry-line-row {
         padding: 0;
     }
+
+    .couple-industry {
+        justify-content: space-around;
+    }
+
     .industry-details {
         padding: var(--margin-sm);
     }
+
+    .industry-img img{
+        width: 100%;
+    }
+
+    .sub-text-industry {
+        padding: var(--margin-sm);
+    }
+
     .footer-content {
         padding: 3rem;
         line-height: 30px;
