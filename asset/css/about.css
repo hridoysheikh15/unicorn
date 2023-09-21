@@ -1,0 +1,107 @@
+/* about css  */
+
+.aboutTop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #0007), url(../image/group-selfee.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+}
+
+.aboutTop-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.midTag{
+    color: var(--color-light);
+    text-align: center;
+}
+
+.midTag .text-uppercase {
+    font-size: var(--font-lg);
+    text-shadow: 2px 2px #333;
+}
+
+.midTag .text-capitalize {
+    font-size: var(--font-sm);
+}
+
+/* identity css  */
+
+.identity {
+    padding-block: 3rem;
+}
+
+.identity-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.identity-img, .identity-content {
+    padding: var(--margin-sm);
+}
+
+.identity-img img{
+    margin: var(--margin-sm);
+    border-radius: 10px;
+}
+
+.identity-img {
+    background-image: url(../image/about-shape.png);
+    background-position: cover;
+    background-size: 100%;
+    display: flex;
+}
+
+.identity-content {
+    margin-block: auto;
+}
+
+.identity-paragraph-1 p{
+    font-size: var(--font-sm);
+    color: var(--color-hover);
+    font-weight: 500;
+}
+
+.identity-paragraph-heading {
+    font-size: var(--font-lg);
+    font-family: var(--lato);
+    font-weight: 600;
+}
+
+.identity-paragraph-body {
+    color: #888;
+    font-size: var(--font-sm);
+    font-family: var(--poppins);
+    line-height: 30px;
+}
+
+.identity-paragraph-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-history {
+    padding: 10vw;
+}
+
+.project-history-box {
+    background-image: url(../image/counter-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.project-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 980px) {
+    .identity-img {
+        display: none;
+    }
+}

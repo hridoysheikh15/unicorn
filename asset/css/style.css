@@ -205,6 +205,11 @@ header {
 
 /* our main work section css  */
 
+
+.scroller_up{ 
+    animation: scrollTop 2s;
+}
+
 .main-work-section {
     padding-block: 3rem;
     background-color: #f9f9f9;
@@ -324,8 +329,25 @@ header {
 
 /* service section css  */
 
+.scroller_left {
+    animation: leftscroll 2s ease-out;
+}
+
+.scroller_right {
+    animation: rightscroll 2s ease-out;
+}
+
 .service {
     background-color: var(--color-light);
+    padding-block: 3rem;
+}
+
+.service-list-left::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.service-list-left {
+    overflow-y: scroll;
 }
 
 .service-content {
@@ -476,6 +498,10 @@ header {
 }
 
 /* work process css */
+
+.contain {
+    padding-block: 3rem;
+}
 
 .step {
     position: relative;
@@ -739,6 +765,7 @@ header {
 /* footer css */
 
 footer {
+    padding-block: 3rem;
     background-color: var(--color-dark);
     color: var(--color-light);
     font-family: var(--poppins);
@@ -830,6 +857,10 @@ footer {
     
     .logo img:last-child{
         display: block;
+    }
+
+    .about-box {
+        display: none;
     }
 
     .about-content{
