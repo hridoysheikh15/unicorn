@@ -57,3 +57,5 @@ class navbar extends HTMLElement {
 }
 
 customElements.define ("my-nav", navbar);
+
+// custom footer
