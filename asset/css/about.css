@@ -28,6 +28,10 @@
     font-size: var(--font-sm);
 }
 
+.about-mid-blog{
+    max-width: 650px;
+}
+
 /* identity css  */
 
 .identity {
@@ -83,21 +87,77 @@
     justify-content: space-between;
 }
 
+/* project history css */
+
 .project-history {
     padding: 10vw;
 }
 
 .project-history-box {
     background-image: url(../image/counter-bg.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 250px;
+    padding-block: 5rem;
+    border-radius: 15px;
+    color: var(--color-light);
+    font-weight: 700;
 }
 
 .project-number {
+    padding-inline: 5%;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.project-item {
+    font-family: var(--lato);
+}
+
+.project-item h1 {
+    font-family: var(--poppins);
+    font-weight: 900;
+}
+
+/* why choose us */
+
+.choosing-about-content-heading{
+    text-align: center;
+}
+
+.choosing-about-content-heading h6 {
+    color: var(--color-hover);
+}
+
+.choosing-about {
+    background-image: url(../image/bg3.jpg);
+}
+
+/* employee section */
+
+.employee {
+    background-color: var(--color-);
+}
+
+.emp-card-detail {
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.emp-card-detail img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    filter:grayscale(1);
+}
+
+.emp-card-details {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: baseline;
 }
 
 @media (max-width: 980px) {
