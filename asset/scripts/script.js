@@ -17,21 +17,34 @@ document.querySelector(".nav-burger-icon").addEventListener("click", () => {
 // testimonial script
 
 function card(n) {
+    const prevCard = document.querySelector('.prev-card');
+    const nextCard = document.querySelector('.next-card');
+    let prevCardIndex = n - 1;
+    let nextCardIndex = n + 1;
+    if (n === 4) {
+        nextCardIndex = 0;
+    } else if (n === 0) {
+        prevCardIndex = 4;
+    }
+
+    prevCard.setAttribute('onclick', `card(${prevCardIndex})`);
+    nextCard.setAttribute('onclick', `card(${nextCardIndex})`);
+
     for (let i = 0; i < 5; i++) {
         let content = document.getElementById("card_content" + i);
         let dot = document.getElementsByClassName("dot");
         let cards = document.getElementsByClassName("cards");
         if (i !== n) {
             cards[i].classList.remove("fade");
-            dot[i].classList.remove("activedot");
+            dot[i].classList.remove("active_dot");
             content.style.display = "none";
         } else {
             cards[i].classList.add("fade");
-            dot[i].classList.add("activedot");
+            dot[i].classList.add("active_dot");
             content.style.display = "block";
             setTimeout(() => {
                 cards[i].classList.remove("fade");
-            }, 1000);
+            }, 500);
         }
     }
 }
@@ -50,11 +63,11 @@ function swap_card(n) {
 
                 if (z !== j) {
                     cards[i].classList.remove("fade");
-                    dot[i].classList.remove("activedot");
+                    dot[i].classList.remove("active_dot");
                     content.style.display = "none";
                 } else {
                     document.getElementById("card_content" + (i + (n))).style.display = "block";
-                    document.getElementsByClassName("dot")[i + (n)].classList.add("activedot");
+                    document.getElementsByClassName("dot")[i + (n)].classList.add("active_dot");
                     document.getElementsByClassName("card")[i + (n)].classList.add("fade");
                 }
             }

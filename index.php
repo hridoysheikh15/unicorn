@@ -524,7 +524,7 @@ include 'header.php';
                         </div>
                         <div class="sub-text">
                             <p>
-                                how we works
+                                how we work
                             </p>
                         </div>
                     </div>
@@ -536,12 +536,15 @@ include 'header.php';
                                 <div class="step">
                                     <div class="step-number">01</div>
                                     <div class="step-card">
-                                        <div class="step-icon">
-                                            <img src="./asset/image/answer.png" alt="">
+                                        <div class="card-top">
+                                            <div class="step-icon">
+                                                <img src="./asset/image/answer.png" alt="">
+                                            </div>
+                                            <div class="step-heading">
+                                                choose a service
+                                            </div>
                                         </div>
-                                        <div class="step-heading">
-                                            choose a service
-                                        </div>
+
                                         <div class="step-paragraph">
                                             Our software company offers a diverse range of services to cater to your
                                             specific needs. In the "Choose a Service" section, effortlessly navigate
@@ -557,12 +560,15 @@ include 'header.php';
                                 <div class="step">
                                     <div class="step-number">02</div>
                                     <div class="step-card">
-                                        <div class="step-icon">
-                                            <img src="./asset/image/meeting.png" alt="">
+                                        <div class="card-top">
+                                            <div class="step-icon">
+                                                <img src="./asset/image/meeting.png" alt="">
+                                            </div>
+                                            <div class="step-heading">
+                                                request a meeting
+                                            </div>
                                         </div>
-                                        <div class="step-heading">
-                                            request a meeting
-                                        </div>
+
                                         <div class="step-paragraph">
                                             Connect with our software company seamlessly by utilizing our "Request a
                                             Meeting" feature. Whether you're seeking consultation, support, or
@@ -580,12 +586,15 @@ include 'header.php';
                                 <div class="step">
                                     <div class="step-number">03</div>
                                     <div class="step-card">
-                                        <div class="step-icon">
-                                            <img src="./asset/image/graph-report.png" alt="">
+                                        <div class="card-top">
+                                            <div class="step-icon">
+                                                <img src="./asset/image/graph-report.png" alt="">
+                                            </div>
+                                            <div class="step-heading">
+                                                receive custom plan
+                                            </div>
                                         </div>
-                                        <div class="step-heading">
-                                            receive custom plan
-                                        </div>
+
                                         <div class="step-paragraph">
                                             Unlock tailored solutions with our software company's "Receive Custom
                                             Plan"
@@ -602,12 +611,15 @@ include 'header.php';
                                 <div class="step">
                                     <div class="step-number">04</div>
                                     <div class="step-card">
-                                        <div class="step-icon">
-                                            <img src="./asset/image/decision.png" alt="">
+                                        <div class="card-top">
+                                            <div class="step-icon">
+                                                <img src="./asset/image/decision.png" alt="">
+                                            </div>
+                                            <div class="step-heading">
+                                                lets make it happen
+                                            </div>
                                         </div>
-                                        <div class="step-heading">
-                                            lets make it happend
-                                        </div>
+
                                         <div class="step-paragraph">
                                             At our software company, we excel in bringing your vision to life. With
                                             "Creating Software by Plan," we work closely with you to develop custom
@@ -710,13 +722,13 @@ include 'header.php';
             </div>
             <div class="testimonial-content">
                 <div class="testimonial-card-content">
-                    <div onclick="swap_card(-1)" class="prev-card">
+                    <div onclick="card(4)" class="prev-card">
                         <div class="prev-icon">
                             <i class="bi bi-arrow-left"></i>
                         </div>
                     </div>
                     <div class="cards-container">
-                        <div id="card_content0">
+                        <div id="card_content0" class="card-contents">
                             <div class="cards">
                                 <div class="card-item">
                                     <div class="card-item-content">
@@ -748,7 +760,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div id="card_content1">
+                        <div id="card_content1" class="card-contents">
                             <div class="cards">
                                 <div class="card-item">
                                     <div class="card-item-content">
@@ -780,7 +792,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div id="card_content2">
+                        <div id="card_content2" class="card-contents">
                             <div class="cards">
                                 <div class="card-item">
                                     <div class="card-item-content">
@@ -812,7 +824,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div id="card_content3">
+                        <div id="card_content3" class="card-contents">
                             <div class="cards">
                                 <div class="card-item">
                                     <div class="card-item-content">
@@ -844,7 +856,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div id="card_content4">
+                        <div id="card_content4" class="card-contents">
                             <div class="cards">
                                 <div class="card-item">
                                     <div class="card-item-content">
@@ -877,7 +889,7 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div onclick="swap_card(1)" class="next-card">
+                    <div onclick="card(1)" class="next-card ">
                         <div class="prev-icon">
                             <i class="bi bi-arrow-right"></i>
                         </div>
@@ -885,7 +897,7 @@ include 'header.php';
                 </div>
 
                 <div class="dots card-controls">
-                    <div onclick="card(0)" class="dot activedot"></div>
+                    <div onclick="card(0)" class="dot active_dot"></div>
                     <div onclick="card(1)" class="dot "></div>
                     <div onclick="card(2)" class="dot "></div>
                     <div onclick="card(3)" class="dot "></div>
