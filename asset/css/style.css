@@ -1,10 +1,5 @@
 /* important library link  */
-
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js");
-
 /* google font  */
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Metal&family=Poly&family=Poppins:wght@300&display=swap');
 
 /* root size and color for easy responsive  */
@@ -113,14 +108,6 @@ header {
     align-items: center;
 }
 
-.logo img:first-child{
-    display: block;
-}
-
-.logo img:last-child{
-    display: none;
-}
-
 .logo img {
     width: var(--img-lg);
 }
@@ -210,7 +197,7 @@ header {
 /* our main work section css  */
 
 
-.scroller_up{ 
+.scroller_up{
     animation: scrollTop 2s;
 }
 
@@ -551,18 +538,18 @@ header {
     line-height: 1.75rem;
 }
 
-/* achivement section */
+/* achievement section */
 
-.our-achivement {
+.our-achievement {
     display: var(--flex);
     padding: var(--padding);
 }
 
-.achivement-content {
+.achievement-content {
     padding: var(--margin-sm);
 }
 
-.achive-heading {
+.achieve-heading {
     color: var(--color-heading-subtag);
     font-family: var(--lato);
     font-size: var(--font-lg);
@@ -574,7 +561,7 @@ header {
     padding: var(--margin-sm);
 }
 
-.achive-heading::before {
+.achieve-heading::before {
     position: absolute;
     content: " ";
     height: 20%;
@@ -590,32 +577,32 @@ header {
     display: var(--flex);
 }
 
-.achivement-prove-image {
+.achievement-prove-image {
     padding: var(--margin-sm);
     margin-block: auto;
 }
 
-.achivement-prove-image img {
+.achievement-prove-image img {
     width: calc(120px + 3.7vw);
 }
 
-.achivement-prove-heading {
+.achievement-prove-heading {
     font-size: var(--font-md);
     font-family: var(--metal);
     font-weight: 700;
     color: var(--color-service-tag);
 }
 
-.achive-paragraph {
+.achieve-paragraph {
     font-family: var(--poppins);
     text-align: justify;
     font-size: var(--font-sm);
     line-height: 1.85rem;
 }
 
-/* testmonial css */
+/* testimonial css */
 
-.testmonial-section{
+.testimonial-section{
     margin-bottom: 3rem;
 }
 
@@ -631,7 +618,7 @@ header {
     animation: fadeIn 1s;
 }
 
-.testmonial-card-content {
+.testimonial-card-content {
     position: relative;
     transition: 1s all ease-in;
 }
@@ -885,7 +872,7 @@ footer {
         margin: 1rem 0;
     }
 
-    .achivement-prove{
+    .achievement-prove{
         text-align: center;
     }
 

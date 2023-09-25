@@ -1,77 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./asset/image/unicorn.png" type="image/x-icon">
-    <title>WELCOME TO USSBD || HOME</title>
-    <link rel="stylesheet" href="./asset/css/style.css">
-    <link rel="stylesheet" href="./asset/css/animation_style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="./asset/script/animation.js"></script>
-</head>
-
-<body>
-    <!-- preloader -->
-
-    <div id="preloader">
-        <img src="./asset/image/preloader.gif" alt="">
-        <p>ussbd</p>
-    </div>
-
-    <!-- header html  -->
-    <header>
-        <div class="header container-lg text-uppercase">
-            <div class="head">
-                <div class="head-item">
-                    <div class="logo">
-                        <img src="./asset/image/unicorn-removebg-preview.png" alt="logo">
-                        <img src="./asset/image/unicorn.png" alt="logo">
-                    </div>
-                    <div class="navber">
-                        <div class="nav-burger-icon">
-                            <i class="cngIcon bi bi-list"></i>
-                        </div>
-                        <div class="nav-list">
-                            <div class="nav-items">
-                                <a href="./index.html" class="nav-item">
-                                    home
-                                </a>
-                                <a href="./asset/page/aboutUs.html" class="nav-item">
-                                    about us
-                                </a>
-                                <a href="./asset/page/portfolio.html" class="nav-item">
-                                    portfolio
-                                </a>
-                                <a href="./asset/page/serve.html" class="nav-item">
-                                    service
-                                </a>
-                                <a href="./asset/page/blog.html" class="nav-item">
-                                    blog
-                                </a>
-                                <a href="./asset/page/contact.html" class="nav-item">
-                                    contact
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="login">
-                        <div class="login-section">
-                            <div class="login-icon">
-                                <a href="#">
-                                    <i class="bi bi-person-circle"></i><span>login</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
+<?php
+    include 'header.php';
+?>
     <!-- video add section html -->
 
     <div class="video-add-section">
@@ -705,16 +634,16 @@
         </div>
     </div>
 
-    <!-- our achivement section -->
+    <!-- our achievement section -->
 
-    <div class="achive">
-        <div class="achivement">
-            <div class="our-achivement">
-                <div class="achivement-content">
-                    <p class="achive-heading">
+    <div class="achieve">
+        <div class="achievement">
+            <div class="our-achievement">
+                <div class="achievement-content">
+                    <p class="achieve-heading">
                         we help it companies scale <span class="d-md-block">engineering capacity-</span>
                     </p>
-                    <p class="achive-paragraph">
+                    <p class="achieve-paragraph">
                         Unicorn Software And Solution Bangladesh – Best website design company in Bangladesh. A quality
                         experience team with 17+ years experience. Over the last 17 years, we have built many excellent
                         websites and Digital Marketing for brand-new startups And also we have so many happy lovely
@@ -727,16 +656,16 @@
                         a call.
                     </p>
                 </div>
-                <div class="achivement-prove">
+                <div class="achievement-prove">
                     <div class="prove-content">
-                        <div class="achivement-prove-image">
+                        <div class="achievement-prove-image">
                             <img src="./asset/image/certificate.jpg" alt="certificate">
                         </div>
-                        <div class="achivement-prove-name">
-                            <div class="achivement-prove-heading text-uppercase">
+                        <div class="achievement-prove-name">
+                            <div class="achievement-prove-heading text-uppercase">
                                 <b><i>certified company</i></b>
                             </div>
-                            <div class="achivement-prove-body text-capitalize">
+                            <div class="achievement-prove-body text-capitalize">
                                 <p>
                                     since - 2006<span class="d-block">to present</span>
                                 </p>
@@ -744,14 +673,14 @@
                         </div>
                     </div>
                     <div class="prove-content">
-                        <div class="achivement-prove-image">
+                        <div class="achievement-prove-image">
                             <img src="./asset/image/award.png" alt="award">
                         </div>
-                        <div class="achivement-prove-name">
-                            <div class="achivement-prove-heading text-uppercase">
+                        <div class="achievement-prove-name">
+                            <div class="achievement-prove-heading text-uppercase">
                                 <b><i>award winning</i></b>
                             </div>
-                            <div class="achivement-prove-body text-capitalize">
+                            <div class="achievement-prove-body text-capitalize">
                                 <p>
                                     in - 2016: best tech consulting in
                                     khulna
@@ -768,11 +697,11 @@
         </div>
     </div>
 
-    <!-- testmonial section -->
+    <!-- testimonial section -->
 
-    <div class="testmonial">
-        <div class="testmonial-section">
-            <div class="testmonial-heading">
+    <div class="testimonial">
+        <div class="testimonial-section">
+            <div class="testimonial-heading">
                 <div class="section1">
                     <div class="text-section text-center text-uppercase">
                         <div class="main-text">
@@ -787,8 +716,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="testmonial-content">
-                    <div class="testmonial-card-content">
+                <div class="testimonial-content">
+                    <div class="testimonial-card-content">
                         <div onclick="swap_card(-1)" class="prev-card">
                             <div class="prev-icon">
                                 <i class="bi bi-arrow-left"></i>
@@ -1073,115 +1002,6 @@
         </div>
     </div>
 
-    <!-- footer  -->
-
-    <footer>
-        <div class="footer">
-            <div class="footer-content">
-                <div class="footer-content-item text-uppercase">
-                    <div class="footer-item">
-                        <div class="footer-company-info">
-                            <!-- <h1 class="text-lowercase">
-                                ussbd.com
-                            </h1> -->
-                            <img src="./asset/image/unicorn-removebg-preview.png" alt="logo">
-                            <h5>
-                                ELEGANCE, INTELLIGENCE, PATIENCE ...
-                            </h5>
-                            <p>
-                                tel: <a class="text-decoration-none" href="tel:+8801797459533">
-                                    +880 1797 459 533
-                                </a>
-                            </p>
-                            <p class="text-capitalize">
-                                474, Nirala-24 No Road, Khulna
-                            </p>
-                        </div>
-                    </div>
-                    <div class="footer-item">
-                        <div class="footer-menu">
-                            <h1>menu</h1>
-                            <li><a href="./index.html">
-                                    home
-                                </a></li>
-                            <li><a href="#">
-                                    about us
-                                </a></li>
-                            <li><a href="#">
-                                    portfolio
-                                </a></li>
-                            <li><a href="#">
-                                    service
-                                </a></li>
-                            <li><a href="#">
-                                    blog
-                                </a></li>
-                            <li><a href="#">
-                                    contact
-                                </a></li>
-                        </div>
-                    </div>
-                    <div class="footer-item">
-                        <div class="footer-service-menu">
-                            <h1>services</h1>
-                            <li><a href="#">
-                                    Infrastructure and Cloud Services
-                                </a></li>
-                            <li><a href="#">
-                                    Network Services
-                                </a></li>
-                            <li><a href="#">
-                                    Testing Services
-                                </a></li>
-                            <li><a href="#">
-                                    Business Excellence Services
-                                </a></li>
-                            <li><a href="#">
-                                    Integrated Engineering Solutions
-                                </a></li>
-                            <li><a href="#">
-                                    Performance Engineering
-                                </a></li>
-                            <li><a href="#">
-                                    Oracle
-                                </a></li>
-                            <li><a href="#">
-                                    Artificial Intelligence
-                                </a></li>
-                            <li><a href="#">
-                                    Cyber Security
-                                </a></li>
-                            <li><a href="#">
-                                    Intelligent Automation
-                                </a></li>
-                        </div>
-                    </div>
-                </div>
-                <hr class="container-lg">
-                <div class="copyright-section container-sm text-uppercase">
-                    <p>
-                    <h3>say hello</h3>
-                    Interested to work with us? Drop a mail to:
-                    <a href="mailto:abusid@ussbd.com" class="text-decoration-underline">us</a>
-                    </p>
-                    <p class="mb-0">
-                        &#169; ALL RIGHT RESERVED TO <a class="text-decoration-underline" href="#">USSBD.COM</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <script src="./asset/script/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-    <script src="./asset/script/videoScript.js"></script>
-
-</body>
-
-</html>
+<?php
+    include 'footer.php';
+?>

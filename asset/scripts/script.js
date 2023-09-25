@@ -14,7 +14,7 @@ document.querySelector(".nav-burger-icon").addEventListener("click", () => {
     }
 })
 
-// testmonial script
+// testimonial script
 
 function card(n) {
     for (let i = 0; i < 5; i++) {

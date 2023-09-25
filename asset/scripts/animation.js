@@ -1,13 +1,13 @@
-// preloader 
+// preloader
 
-window.addEventListener("load", ()=>{
+window.addEventListener("load", () => {
     document.getElementById("preloader").style.display = "none";
 })
 setTimeout(() => {
     document.getElementById("preloader").style.display = "none";
 }, 5000);
 
-// navber animation 
+// navbar animation
 
 $(document).ready(function () {
     $(window).scroll(function () {
@@ -19,7 +19,7 @@ $(document).ready(function () {
     })
 });
 
-// main-work-section Animation 
+// main-work-section Animation
 
 $(document).ready(function () {
     $(window).scroll(function () {
@@ -39,7 +39,7 @@ $(document).ready(function () {
     })
 });
 
-// service left right animation 
+// service left right animation
 
 $(document).ready(function () {
     $(window).scroll(function () {
@@ -67,12 +67,12 @@ $(document).ready(function () {
     })
 });
 
-// achivment 
+// achivment
 
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 6710) {
-            $('.achive').addClass('scroller_up');
+            $('.achieve').addClass('scroller_up');
         }
     })
 });
