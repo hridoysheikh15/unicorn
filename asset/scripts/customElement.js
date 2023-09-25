@@ -17,7 +17,7 @@ class navbar extends HTMLElement {
                         </div>
                         <div class="nav-list">
                             <div class="nav-items">
-                                <a href="../../index.html" class="nav-item">
+                                <a href="./index.html" class="nav-item">
                                     home
                                 </a>
                                 <a href="./about.html" class="nav-item">
