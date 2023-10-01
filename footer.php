@@ -101,7 +101,8 @@
 <script src="./asset/scripts/script.js"></script>
 <script src="./asset/scripts/popper.min.js"></script>
 <script src="./asset/scripts/bootstrap.min.js"></script>
-<script src="./asset/scripts/videoScript.js"></script>
+    <script src="./asset/scripts/animation.js"></script>
+<!-- <script src="./asset/scripts/videoScript.js"></script> -->
 
 </body>
 

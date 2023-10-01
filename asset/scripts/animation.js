@@ -1,78 +1,102 @@
 // preloader
 
 window.addEventListener("load", () => {
-    document.getElementById("preloader").style.display = "none";
-})
+  document.getElementById("preloader").style.display = "none";
+});
 setTimeout(() => {
-    document.getElementById("preloader").style.display = "none";
+  document.getElementById("preloader").style.display = "none";
 }, 5000);
 
 // navbar animation
-
 $(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('header').addClass('scrollNav');
-        } else {
-            $('header').removeClass('scrollNav');
-        }
-    })
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $("header").addClass("scrollNav");
+    } else {
+      $("header").removeClass("scrollNav");
+    }
+  });
+
+  // main-work-section Animation
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $(".animationTop").addClass("scroller_up");
+    }
+  });
+
+  // about-company-section
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1200) {
+      $(".about-company-section").addClass("scroller_up");
+    }
+  });
+
+  // service left right animation
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 2200) {
+      $(".service-list-left .service-content").addClass("scroller_left");
+    }
+  });
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 2300) {
+      $(".service-list-right .service-content").addClass("scroller_right");
+    }
+  });
+
+  // choosing-section
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 4280) {
+      $(".choosing-section").addClass("scroller_up");
+    }
+  });
+  // achivment
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 6710) {
+      $(".achieve").addClass("scroller_up");
+    }
+  });
+
+  // project number counter
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1900) {
+      let counters = document.querySelectorAll(".counting");
+      const speed = 400;
+      counters.forEach((counter) => {
+        const updateCount = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText;
+
+          const inc = target / speed;
+
+          if (count < target) {
+            counter.innerText = count + inc;
+            setTimeout(updateCount, 10);
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        updateCount();
+      });
+    }
+  });
 });
 
-// main-work-section Animation
+// partner animation section auto scroller
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 20) {
-            $('.animationTop').addClass('scroller_up');
-        }
-    })
+const slider = document.getElementById('partner_slider');
+
+slider.addEventListener('mouseenter', () => {
+  slider.style.animationPlayState = 'paused';
 });
 
-// about-company-section
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1200) {
-            $('.about-company-section').addClass('scroller_up');
-        }
-    })
-});
-
-// service left right animation
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 2200) {
-            $('.service-list-left .service-content').addClass('scroller_left');
-        }
-    })
-});
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 2300) {
-            $('.service-list-right .service-content').addClass('scroller_right');
-        }
-    })
-});
-
-// choosing-section
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 4280) {
-            $('.choosing-section').addClass('scroller_up');
-        }
-    })
-});
-
-// achivment
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 6710) {
-            $('.achieve').addClass('scroller_up');
-        }
-    })
+slider.addEventListener('mouseleave', () => {
+  slider.style.animationPlayState = 'running';
 });

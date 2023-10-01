@@ -1,224 +1,201 @@
 /* about css  */
 
 .aboutTop {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #0007), url(../image/group-selfee.jpg);
-    background-size: 100%;
-    background-position: center;
-    height: 500px;
+  position: relative;
+  height: 500px;
 }
 
-.aboutTop-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.img-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.midTag{
-    color: var(--color-light);
-    text-align: center;
+.img-about img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutTop-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #3337;
+}
+
+.midTag {
+  color: var(--color-light);
+  text-align: center;
 }
 
 .midTag .text-uppercase {
-    font-size: var(--font-lg);
-    text-shadow: 2px 2px #333;
+  font-size: var(--font-lg);
+  text-shadow: 2px 2px #333;
 }
 
 .midTag .text-capitalize {
-    font-size: var(--font-sm);
+  font-size: var(--font-sm);
 }
 
-.about-mid-blog{
-    max-width: 650px;
+.about-mid-blog {
+  max-width: 650px;
 }
 
 /* identity css  */
 
 .identity {
-    padding-block: 3rem;
+  padding-block: 3rem;
 }
 
 .identity-information {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.identity-img, .identity-content {
-    padding: var(--margin-sm);
+.identity-img,
+.identity-content {
+  padding: var(--margin-sm);
 }
 
-.identity-img img{
-    margin: var(--margin-sm);
-    border-radius: 10px;
+.identity-img img {
+  margin: var(--margin-sm);
+  border-radius: 10px;
 }
 
 .identity-img {
-    background-image: url(../image/about-shape.png);
-    background-position: cover;
-    background-size: 100%;
-    display: flex;
+  background-image: url(../image/about-shape.png);
+  background-position: cover;
+  background-size: 100%;
+  display: flex;
 }
 
 .identity-content {
-    margin-block: auto;
+  margin-block: auto;
 }
 
-.identity-paragraph-1 p{
-    font-size: var(--font-sm);
-    color: var(--color-hover);
-    font-weight: 500;
+.identity-paragraph-1 p {
+  font-size: var(--font-sm);
+  color: var(--color-hover);
+  font-weight: 500;
 }
 
 .identity-paragraph-heading {
-    font-size: var(--font-lg);
-    font-family: var(--lato);
-    font-weight: 600;
+  font-size: var(--font-lg);
+  font-family: var(--lato);
+  font-weight: 600;
 }
 
 .identity-paragraph-body {
-    color: #888;
-    font-size: var(--font-sm);
-    font-family: var(--poppins);
-    line-height: 30px;
+  color: #888;
+  font-size: var(--font-sm);
+  font-family: var(--poppins);
+  line-height: 30px;
 }
 
 .identity-paragraph-2 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* project history css */
 
 .project-history {
-    padding: 10vw;
+  padding: 10vw;
 }
 
 .project-history-box {
-    background-image: url(../image/counter-bg.jpg);
-    padding-block: 5rem;
-    border-radius: 15px;
-    color: var(--color-light);
-    font-weight: 700;
+  background-image: url(../image/counter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 5rem;
+  border-radius: 15px;
+  color: var(--color-light);
+  font-weight: 700;
 }
 
 .project-number {
-    padding-inline: 5%;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding-inline: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-item {
-    font-family: var(--lato);
+  font-family: var(--lato);
 }
 
 .project-item h1 {
-    font-family: var(--poppins);
-    font-weight: 900;
+  font-family: var(--poppins);
+  font-weight: 900;
 }
 
 /* why choose us */
 
-.choosing-about-content-heading{
-    text-align: center;
+.choosing-about-content-heading {
+  text-align: center;
 }
 
 .choosing-about-content-heading h6 {
-    color: var(--color-hover);
+  color: var(--color-hover);
 }
 
 .choosing-about {
-    background-image: url(../image/bg3.jpg);
+  background-image: url(../image/bg3.jpg);
 }
 
 /* employee section */
 
-.employee {
-    background-color: var(--color-);
+.our-employee {
+  position: relative;
+  background-color: var(--color-light);
+  padding-block: var(--padding);
 }
 
 .all-employee {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* partner list */
+.overflow-x-scroll {
+    overflow-x: scroll;
+  white-space: nowrap;
+  justify-content: center;
+  display: flex;
+}
+
+.overflow-x-scroll::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.partner-gov {
+  width: 60%;
     display: flex;
-    justify-content: center;
+    animation: autoscroll_X 20s infinite ease-in-out;
 }
 
-.emp-card-detail {
-    height: 300px;
-    width: 250px;
-    border-radius: 5px;
-    position: relative;
-    margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+.partner-logo {
+  height: 100px;
+  margin: 20px;
 }
 
-.img-box {
-    position: absolute;
-    height: 50%;
-    width: 50%;
-    background-color: var(--color-hover);
-    z-index: 1;
-    bottom: 5%;
-    left: 5%;
-    opacity: 0.8;
-    border-radius: 5px;
-    transition: 0.5s all ease-out;
-}
 
-.emp-card-detail:hover .img-box{
-    height: 100%;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    opacity: 0.5;
-    transition: 0.5s all ease-in;
-}
-
-/* .emp-card-detail:hover .emp-card-detail img {
-    filter: grayscale(0);
-} */
-
-.emp-card-detail img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    /* filter: grayscale(1); */
-}
-
-.emp-card-details {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    display: flex;
-    align-items: baseline;
-    z-index: 2;
-}
-
-.emp-card, .emp-card-item {
-    display: var(--flex);
-}
-
-.emp-team {
-    padding-inline: var(--padding);
-}
-
-.emp-social-icon {
-    font-size: var(--font-sm);
-}
-
-.emp-social-icon a{
-    color: var(--color-light);
-    transition: 0.5s all ease;
-    text-decoration: none;
-    margin-inline: 5px;
-}
 
 @media (max-width: 980px) {
-    .identity-img {
-        display: none;
-    }
-    
-    .emp-card-item {
-        display: block; 
-    }
+  .identity-img {
+    display: none;
+  }
+
+  .emp-card-item {
+    display: block;
+  }
 }
