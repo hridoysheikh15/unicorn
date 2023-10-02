@@ -41,16 +41,16 @@
                                 <a href="about-us.php" class="nav-item">
                                     about us
                                 </a>
-                                <a href="./asset/page/portfolio.html" class="nav-item">
+                                <a href="portfolio.php" class="nav-item">
                                     portfolio
                                 </a>
-                                <a href="./asset/page/serve.html" class="nav-item">
+                                <a href="service.php" class="nav-item">
                                     service
                                 </a>
-                                <a href="./asset/page/blog.html" class="nav-item">
+                                <a href="blog.php" class="nav-item">
                                     blog
                                 </a>
-                                <a href="./asset/page/contact.html" class="nav-item">
+                                <a href="contact.php" class="nav-item">
                                     contact
                                 </a>
                             </div>

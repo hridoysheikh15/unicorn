@@ -1,0 +1,121 @@
+/* about css  */
+
+.aboutTop {
+    position: relative;
+    height: 500px;
+  }
+  
+  .img-about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .img-about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .aboutTop-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #3337;
+  }
+  
+  .midTag {
+    color: var(--color-light);
+    text-align: center;
+  }
+  
+  .midTag .text-uppercase {
+    font-size: var(--font-lg);
+    text-shadow: 2px 2px #333;
+  }
+  
+  .midTag .text-capitalize {
+    font-size: var(--font-sm);
+  }
+  
+  .about-mid-blog {
+    max-width: 650px;
+  }
+  
+/* service demo */
+
+.serv-short{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shortServ{
+    position: relative;
+    padding-inline: 8px;
+    font-family: var(--poppins);
+}
+
+.shortServ::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--color-heading-subtag);
+    content: "";
+}
+
+/* all service details */
+
+.all-service-card {
+    background-color: var(--color-light);
+    text-align: center;
+}
+
+.all-service-card p:nth-child(1){
+    color: var(--color-heading-tag);
+    font-family: var(--poly);
+    font-weight: 700;
+}
+
+.all-serve-card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+}
+
+.card-items {
+    width: 350px;
+    min-width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 10px;
+}
+
+.card-items div:nth-child(2) {
+    margin-block: 10px;
+}
+
+.card-item-1 {
+    font-size: var(--font-lg);
+}
+
+.card-item-2 {
+    font-weight: bolder;
+    color: var(--color-heading-subtag);
+    font-family: var(--poppins);
+}
+
+.card-item-3 {
+    line-height: 25px;
+    font-family: var(--lato);
+    color: var(--color-dark);
+}

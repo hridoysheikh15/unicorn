@@ -29,19 +29,19 @@
                         <li><a href="./index.html">
                                 home
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./about-us.php">
                                 about us
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./portfolio.php">
                                 portfolio
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./service.php">
                                 service
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./blog.php">
                                 blog
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./contact.php">
                                 contact
                             </a></li>
                     </div>
@@ -49,34 +49,34 @@
                 <div class="footer-item">
                     <div class="footer-service-menu">
                         <h1>services</h1>
-                        <li><a href="#">
+                        <li><a href="./cloud_service.php">
                                 Infrastructure and Cloud Services
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./network_service.php">
                                 Network Services
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./testing_service.php">
                                 Testing Services
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./business_service.php">
                                 Business Excellence Services
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./integrated_service.php">
                                 Integrated Engineering Solutions
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./perform_service.php">
                                 Performance Engineering
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./oracle_service.php">
                                 Oracle
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./ai_service.php">
                                 Artificial Intelligence
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./cyber_service.php">
                                 Cyber Security
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="./automation_service.php">
                                 Intelligent Automation
                             </a></li>
                     </div>
@@ -87,10 +87,10 @@
                 <p>
                 <h3>say hello</h3>
                 Interested to work with us? Drop a mail to:
-                <a href="mailto:abusid@ussbd.com" class="text-decoration-underline">us</a>
+                <a href="mailto:abusid@ussbd.com?body='Hello,'" class="text-decoration-underline">us</a>
                 </p>
                 <p class="mb-0">
-                    &#169; ALL RIGHT RESERVED TO <a class="text-decoration-underline" href="#">USSBD.COM</a>
+                    &#169; ALL RIGHT RESERVED TO <a class="text-decoration-underline" href="www.ussbd.com">USSBD.COM</a>
                 </p>
             </div>
         </div>

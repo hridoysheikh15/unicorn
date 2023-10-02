@@ -1,0 +1,204 @@
+/* top section css  */
+
+.aboutTop {
+  position: relative;
+  height: 500px;
+}
+
+.img-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.img-about img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutTop-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #3337;
+}
+
+.midTag {
+  color: var(--color-light);
+  text-align: center;
+}
+
+.midTag .text-uppercase {
+  font-size: var(--font-lg);
+  text-shadow: 2px 2px #333;
+}
+
+.midTag .text-capitalize {
+  font-size: var(--font-sm);
+}
+
+.about-mid-blog {
+  max-width: 650px;
+}
+
+/* intro work */
+
+.port-intro {
+  background-color: var(--color-light);
+  padding-block: 3rem;
+  line-height: 30px;
+}
+
+.intro-work {
+  display: flex;
+  justify-content: center;
+}
+
+.work-intro {
+  color: var(--color-dark);
+  text-align: center;
+  font-family: var(--poly);
+  font-weight: bolder;
+}
+
+.work-intro h1 span {
+  color: var(--color-hover);
+}
+
+.work-intro h1 {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.work-intro h1::before {
+  position: absolute;
+  height: 2px;
+  background-color: var(--color-dark);
+  content: "";
+  width: 100%;
+  bottom: 3px;
+  left: 0;
+}
+
+.work-intro h1::after {
+  position: absolute;
+  height: 8px;
+  background-color: var(--color-dark);
+  content: "";
+  width: 30%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.work-intro p {
+  text-transform: capitalize;
+  max-width: 400px;
+  font-family: var(--poppins);
+  font-weight: 300;
+}
+
+/* all work css here */
+
+.works-btn {
+  text-align: center;
+  padding-block: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-list {
+  text-transform: uppercase;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #333;
+  position: relative;
+  transition: 0.5s all ease-in-out;
+}
+
+.before-hover-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 25%;
+  content: "";
+  background-color: var(--color-hover);
+  transition: 0.4s all ease-in-out;
+}
+
+.before-hover-2 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  height: 0%;
+  width: 25%;
+  content: "";
+  background-color: var(--color-hover);
+  transition: 0.6s all ease-in-out;
+}
+
+.after-hover-1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0%;
+  width: 25%;
+  content: "";
+  background-color: var(--color-hover);
+  transition: 0.8s all ease-in-out;
+}
+
+.after-hover-2 {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  height: 0%;
+  width: 25%;
+  content: "";
+  background-color: var(--color-hover);
+  transition: 1s all ease-in-out;
+}
+
+.btn-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work-list:hover {
+  color: var(--color-light);
+}
+
+.work-list:hover .before-hover-1, .work-list:hover .before-hover-2, .work-list:hover .after-hover-1, .work-list:hover .after-hover-2 {
+  height: 100%;
+  z-index: 0;
+}
+
+.work-list:hover .before-hover-1 {
+  transition: 0.4s all ease-in-out;
+}
+
+.work-list:hover .before-hover-2{
+  transition: 0.6s all ease-in-out;
+}
+
+.work-list:hover .after-hover-1 {
+  transition: 0.8s all ease-in-out;
+}
+
+.work-list:hover .after-hover-2 {
+  transition: 1s all ease-in-out;
+}

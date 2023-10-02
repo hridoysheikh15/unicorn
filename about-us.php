@@ -4,8 +4,8 @@ include 'header.php';
 
 <head>
   <link rel="stylesheet" href="./asset/css/about.css" />
-  <link rel="stylesheet" href="./asset/css/card.css" />
 </head>
+
 <!-- top section -->
 
 <div class="aboutTop">
@@ -512,7 +512,7 @@ include 'header.php';
               alt="partner"
               class="partner-logo"
             />
-            <img
+            <!-- <img
               src="./asset/image/partner-4.webp"
               alt="partner"
               class="partner-logo"
@@ -526,7 +526,7 @@ include 'header.php';
               src="./asset/image/partner-2.webp"
               alt="partner"
               class="partner-logo"
-            />
+            /> -->
           </div>
     </div>
   </div>
