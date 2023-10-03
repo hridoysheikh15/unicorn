@@ -40,7 +40,7 @@ include 'header.php'
 
 <!-- all work menu -->
 
-<div class="all-work">
+<div class="all-work container-lg">
   <div class="all-work-list">
     <div class="works-portfolio">
       <div class="works-btn">
@@ -99,7 +99,210 @@ include 'header.php'
           </button>
         </div>
       </div>
-      <div class="works-details"></div>
+      <div class="works-details">
+        <div class="all-content-port text-center">
+          <div id="port_list0">
+            <div class="port-content">
+              <p>Total Work</p>
+            </div>
+          </div>
+          <div id="port_list1">
+            <div class="port-content">
+              <p>Websites</p>
+            </div>
+          </div>
+          <div id="port_list2">
+            <div class="port-content">
+              <p>app (mobile)</p>
+            </div>
+          </div>
+          <div id="port_list3">
+            <div class="port-content">
+              <p>app (desktop)</p>
+            </div>
+          </div>
+          <div id="port_list4">
+            <div class="port-content">
+              <p>app (web)</p>
+            </div>
+          </div>
+          <div id="port_list5">
+            <div class="port-content">
+              <p>ux/ui</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- use tool for dev -->
+
+<div class="port-tool">
+  <div class="all-tool">
+    <div class="port-intro">
+      <div class="intro-work">
+        <div class="work-intro">
+          <h1 class="text-uppercase">use's populer <span>tools</span></h1>
+          <p>
+            We create dynamic, interactive and user-friendly solutions for our
+            global clientele
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="all-tool-list container-lg">
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/bs5.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Bootstrap V5.2.3
+          </h5>
+          <p>
+            Powered by Bootstrap most latest version v5.2.3
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/jquery.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Latest Jquery
+          </h5>
+          <p>
+            Template is fully customized according to latest Jquery.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/responsive.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Fully Responsive
+          </h5>
+          <p>
+            100% responsive layout using default Bootstrap grid layout.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/customize.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Fully Customizable
+          </h5>
+          <p>
+            Control easily the size by using default Bootstrap grid layout.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/easy use.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Easy To Use
+          </h5>
+          <p>
+            Fully documention and premium support 24/7.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/touch.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Touch Enabled
+          </h5>
+          <p>
+            Designed specially to boost mobile browsing experience.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/document.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Well Documented
+          </h5>
+          <p>
+            A fully detailed documentation is always there .
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/browser.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Cross Browser
+          </h5>
+          <p>
+            This template works perfectly with all available browsers.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/web.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Creative Modern Design
+          </h5>
+          <p>
+            A large range of options features is available.
+          </p>
+        </div>
+      </div>
+      <div class="tools-item">
+        <div class="toolsImg">
+          <div class="tool-img-box">
+            <img src="./asset/image/font.webp" alt="">
+          </div>
+        </div>
+        <div class="toolsDetail">
+          <h5>
+            Google Fonts
+          </h5>
+          <p>
+            Google fonts or upload custom fonts, set sizes, style, and much more.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -90,7 +90,7 @@
                 <a href="mailto:abusid@ussbd.com?body='Hello,'" class="text-decoration-underline">us</a>
                 </p>
                 <p class="mb-0">
-                    &#169; ALL RIGHT RESERVED TO <a class="text-decoration-underline" href="www.ussbd.com">USSBD.COM</a>
+                    &#169; 2006-<?php echo date("y")?> ALL RIGHT RESERVED TO <a class="text-decoration-underline" href="www.ussbd.com">USSBD.COM</a>
                 </p>
             </div>
         </div>
