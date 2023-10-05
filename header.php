@@ -16,6 +16,8 @@
 <body>
     <!-- preloader -->
 
+    <?php $past=6; $present=date("y"); $serviceYear=$present-$past; ?>
+
     <div id="preloader">
         <img src="./asset/image/preloader.gif" alt="">
         <p>ussbd</p>

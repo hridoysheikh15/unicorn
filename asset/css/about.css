@@ -289,3 +289,9 @@
     display: block;
   }
 }
+
+@media (max-width: 767px) {
+  .project-number{
+    display: block;
+  }
+}

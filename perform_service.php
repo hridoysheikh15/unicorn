@@ -13,8 +13,8 @@
   </div>
   <div class="aboutTop-content">
     <div class="midTag">
-      <p class="text-uppercase">BUSINESS SERVICES</p>
-      <p class="text-capitalize">Home / Service / Business Services</p>
+      <p class="text-uppercase">Performance SERVICES</p>
+      <p class="text-capitalize">Home / Service / Performance Services</p>
     </div>
   </div>
 </div>

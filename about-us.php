@@ -29,12 +29,12 @@ include 'header.php';
       <div class="about-content">
         <div class="about-text">
           <p class="about-head-tag">
-            We’ve been working all <br />these 17+ years.
+            We’ve been working all <br />these <?php echo $serviceYear ?>+ years.
           </p>
           <p class="about-mid-blog">
             Unicorn Software And Solution Bangladesh – Best website design
-            company in Bangladesh. A quality experience team with 17+ years
-            experience. Over the last 17 years, we have built many excellent
+            company in Bangladesh. A quality experience team with <?php echo $serviceYear ?>+ years
+            experience. Over the last <?php echo $serviceYear ?> years, we have built many excellent
             websites and Digital Marketing for brand-new startups And also we
             have so many happy lovely customers. Our goal is to improve our
             client’s Return on Investment, through capable systems to facilitate
@@ -257,7 +257,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -285,7 +285,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -313,7 +313,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -341,7 +341,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -369,7 +369,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -397,7 +397,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -425,7 +425,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>
@@ -453,7 +453,7 @@ include 'header.php';
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="bi bi-instagram" aria-hidden="true"></i
+                    ><i class="bi bi-envelope-at-fill" aria-hidden="true"></i
                   ></a>
                 </li>
               </ul>

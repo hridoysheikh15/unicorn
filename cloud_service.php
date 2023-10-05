@@ -34,7 +34,7 @@
     </div>
     <div class="col-lg-6 serv-short">
       <div class="shortServ m-2 fs-6">
-        <q>Deep Industry and System Integrator experience over 17+ years</q>
+        <q>Deep Industry and System Integrator experience over <?php echo $serviceYear ?>+ years</q>
       </div>
       <div class="shortServ m-2 fs-6">
         <q>Supporting 250+ active clients across all over the world</q>

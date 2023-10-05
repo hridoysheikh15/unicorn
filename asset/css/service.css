@@ -1,0 +1,250 @@
+/* top section css  */
+
+.aboutTop {
+  position: relative;
+  height: 500px;
+}
+
+.img-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.img-about img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutTop-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #3337;
+}
+
+.midTag {
+  color: var(--color-light);
+  text-align: center;
+}
+
+.midTag .text-uppercase {
+  font-size: var(--font-lg);
+  text-shadow: 2px 2px #333;
+}
+
+.midTag .text-capitalize {
+  font-size: var(--font-sm);
+}
+
+.about-mid-blog {
+  max-width: 650px;
+}
+
+/* what we do */
+
+.service-do {
+  padding-block: 3rem;
+  background-color: var(--color-light);
+}
+
+.do-heading {
+  font-size: var(--font-lg);
+  font-family: var(--poly);
+  color: var(--color-dark);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.do-heading h1 {
+  position: relative;
+}
+
+.do-heading h1::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  height: 4px;
+}
+
+/* do card */
+
+.do-card {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.do-card-heading {
+  font-size: 24px;
+  padding-block: 10px;
+  font-family: var(--poppins);
+  text-align: start;
+}
+
+.do-card-item {
+  min-width: 220px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: justify;
+  padding: 20px;
+  line-height: 30px;
+  font-family: var(--lato);
+  font-weight: 700;
+}
+
+.do-card-item:hover {
+  box-shadow: rgba(167, 167, 167, 0.2) 2px 2px 18px 14px;
+  transition: 0.3s all ease-in-out;
+}
+
+.do-card-item:hover .do-card-icon {
+  text-align: center;
+  transition: 0.5s all ease-in-out;
+  transform: rotate(360deg);
+}
+
+/* all service details and a massage from md */
+
+.service-list{
+  padding-block: 3rem;
+}
+
+.all-service-list-content {
+  display: flex;
+  justify-content: center;
+}
+
+.all-service-list {
+  width: 100%;
+}
+
+.all-service-list h1{
+  font-size: var(--font-lg);
+  text-transform: capitalize;
+  font-family: var(--poppins);
+  font-weight: 700;
+  padding: 10px;
+}
+
+.all-service-list h1 span {
+  font-weight: 300;
+}
+
+.service-list-item {
+  display: flex;
+  min-width: 220px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid var(--color-hover);
+  box-shadow: #cbd5eb 0px 4px 24px;
+}
+
+.service-list-img {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+.service-list-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.service-list-detail {
+  margin-block: auto;
+  font-family: var(--poppins);
+}
+/* btn service */
+.btn-speech {
+  background-color: transparent;
+  border: none;
+  color: var(--color-heading-subtag);
+  font-weight: 700;
+  position: relative;
+  padding: 5px;
+  transition: 0.3s all ease-out;
+  border-radius: 5px;
+}
+
+.btn-speech:hover{
+  background-color: var(--color-heading-subtag);
+  color: var(--color-light);
+  transition: 0.5s all ease-in;
+}
+
+.btn-speech::before, .btn-speech::after{
+  position: absolute;
+  left: 0;
+  height: 35%;
+  width: 100%;
+  border: 2px solid var(--color-heading-subtag);
+  content: "";
+  transition: 0.5s all ease-out;
+  border-radius: 5px 0px;
+}
+
+.btn-speech::before{
+  top: 0;
+  border-bottom: none;
+}
+
+.btn-speech::after{
+  bottom: 0;
+  border-top: none;
+}
+
+.btn-speech:hover::after, .btn-speech:hover::before{
+  height: 50%;
+  transition: 0.3s all ease-in;
+}
+
+.btn-speech-active{
+  background-color: var(--color-heading-subtag);
+  color: var(--color-light);
+  transition: 0.5s all ease-in;
+}
+
+.all-service-detail {
+  max-width: 50%;
+  text-align: justify;
+  padding-block: 3rem;
+}
+
+.speeker-img img{
+  width: 100%;
+}
+
+.speech-heading {
+  font-size: var(--font-md);
+  padding-bottom: 1rem;
+}
+
+.speeker-speech {
+  line-height: 30px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .all-service-list-content {
+    display: block;
+  }
+  .all-service-detail {
+    max-width: 100%;
+  }
+}

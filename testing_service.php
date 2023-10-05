@@ -33,7 +33,7 @@
     <div class="col-lg-6 serv-short">
       <div class="shortServ m-2 fs-6">
         <q
-          >17+ years of experience in delivering 1000+ Quality engineering
+          ><?php echo $serviceYear ?>+ years of experience in delivering 1000+ Quality engineering
           projects</q
         >
       </div>
