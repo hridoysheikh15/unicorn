@@ -318,7 +318,7 @@ include 'header.php';
                     </div>
                     <div class="service-list-right d-md-flex">
                         <div class="service-gif">
-                            <img src="./asset/image/ai.gif.crdownload" alt="web dev">
+                            <img src="./asset/image/ai.gif" alt="web dev">
                         </div>
                         <div class="service-content">
                             <div class="service-icon">
