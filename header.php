@@ -16,7 +16,7 @@
 <body>
     <!-- preloader -->
 
-    <?php $past=6; $present=date("y"); $serviceYear=$present-$past; ?>
+    <?php $past=5; $present=date("y"); $serviceYear=$present-$past; ?>
 
     <div id="preloader">
         <img src="./asset/image/preloader.gif" alt="">
@@ -29,7 +29,8 @@
             <div class="head">
                 <div class="head-item">
                     <div class="logo">
-                        <a href="/"><img src="./asset/image/unicorn-removebg-preview.png" alt="logo"></a>
+                        <a class="lg-device" href="/"><img src="./asset/image/unicorn-removebg-preview.png" alt="logo"></a>
+                        <a class="sm-device" href="/"><img src="./asset/image/unicorn-removebg-preview.png" alt="logo"></a>
                     </div>
                     <div class="navber">
                         <div class="nav-burger-icon">
@@ -49,7 +50,7 @@
                                 <a href="service.php" class="nav-item">
                                     service
                                 </a>
-                                <a href="blog.php" class="nav-item">
+                                <a href="blog.php" class="nav-item" style="display: none;">
                                     blog
                                 </a>
                                 <a href="contact.php" class="nav-item">

@@ -112,6 +112,10 @@ header {
     width: var(--img-lg);
 }
 
+.sm-device {
+    display: none;
+}
+
 .nav-burger-icon {
     display: none;
     /* color: var(--color-light); */
@@ -173,14 +177,14 @@ header {
 
 .content-tagline .item1 {
     font-family: var(--metal);
-    font-size: var(--font-md);
+    font-size: var(--font-lg);
     color: var(--color-light);
     font-weight: 700;
 }
 
 .content-tagline .item2 {
     font-family: var(--metal);
-    font-size: var(--font-lg);
+    font-size: var(--font-md);
     color: var(--color-light);
     font-weight: 700;
 }
@@ -228,7 +232,7 @@ header {
 .card-heading {
     text-align: center;
     margin: auto;
-    font-size: var(--font-md);
+    font-size: 1.5rem;
     font-weight: 900;
     color: var(--color-heading-subtag);
     font-family: var(--metal);
@@ -268,8 +272,12 @@ header {
     padding-block: 3rem;
 }
 
+.about-text {
+    min-width: 55%;
+}
+
 .about-head-tag {
-    font-size: var(--font-lg);
+    font-size: var(--font-md);
     font-family: var(--metal);
     color: var(--color-heading-subtag);
     font-weight: 700;
@@ -302,11 +310,12 @@ header {
 
 .about-slogan {
     text-transform: uppercase;
-    font-size: var(--font-md);
+    font-size: 1.8rem;
 }
 
 .about-slogan span b {
     font-family: var(--metal);
+    font-size: 1.5rem;
 }
 
 .about-img {
@@ -463,7 +472,7 @@ header {
 /* company tag css  */
 
 .company-tag-section {
-    background-color: var(--color-heading-subtag);
+    background-image: linear-gradient(135deg, #0176B9, var(--color-heading-subtag));
     text-align: center;
     color: var(--color-light);
     font-weight: 700;
@@ -506,6 +515,11 @@ header {
     text-align: justify;
     min-height: 400px;
     max-height: 400px;
+    overflow-y: hidden;
+}
+
+.step::-webkit-scrollbar-thumb {
+    display: none;
 }
 
 .step-number {
@@ -814,7 +828,11 @@ footer {
 }
 
 .footer-company-info img {
-    width: 100%;
+    width: 250px;
+}
+
+.footer-item li {
+    list-style: none;
 }
 
 .footer a {
@@ -875,6 +893,16 @@ footer {
     .section-choose, .our-achievement, .industry-line-row {
         display: block;
     }
+
+    .about-content{
+        display: block;
+    }
+
+    .about-box {
+        top: 90%;
+        left: 0;
+        transform: rotate3d(90deg) translateY(0%);
+    }
 }
 
 @media (max-width: 500px) {
@@ -882,22 +910,15 @@ footer {
         --padding: initial;
         --margin-sm: 20px;
         --font-md: 24px;
-        --font-lg: 32px;
+        --font-lg: 30px;
         --img-sm: 25%;
         --flex: block;
     }
 
-    .logo img:first-child {
-        display: none;
-    }
-
     .logo img {
-        width: initial;
+        /* width: initial; */
     }
 
-    .logo img:last-child {
-        display: block;
-    }
 
     .about-box {
         display: none;
@@ -931,6 +952,25 @@ footer {
         height: 100px;
     }
 
+    .testimonial-card-content {
+        position: relative;
+        grid-template-columns: none;
+    }
+
+    .prev-card, .next-card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .prev-card {
+        left: 0;
+    }
+
+    .next-card {
+        right: 0;
+    }
+
     .industry-line-row {
         padding: 0;
     }
@@ -958,5 +998,11 @@ footer {
 
     .footer-item {
         padding-block: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    :root {
+        --font-lg: 24px;
     }
 }

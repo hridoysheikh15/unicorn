@@ -14,8 +14,8 @@
                             ELEGANCE, INTELLIGENCE, PATIENCE ...
                         </h5>
                         <p>
-                            tel: <a class="text-decoration-none" href="tel:+8801797459533">
-                                +880 1797 459 533
+                            tel: <a class="text-decoration-none" href="tel:+880-2-9360346">
+                                +880-2-9360346
                             </a>
                         </p>
                         <p class="text-capitalize">
@@ -26,71 +26,105 @@
                 <div class="footer-item">
                     <div class="footer-menu">
                         <h1>menu</h1>
-                        <li><a href="./index.html">
+                        <a href="./index.html">
+                            <li>
                                 home
-                            </a></li>
-                        <li><a href="./about-us.php">
+                            </li>
+                        </a>
+                        <a href="./about-us.php">
+                            <li>
                                 about us
-                            </a></li>
-                        <li><a href="./portfolio.php">
+                            </li>
+                        </a>
+                        <a style="display: none;" href="./portfolio.php">
+                            <li>
                                 portfolio
-                            </a></li>
-                        <li><a href="./service.php">
+                            </li>
+                        </a>
+                        <a href="./service.php">
+                            <li>
                                 service
-                            </a></li>
-                        <li><a href="./blog.php">
+                            </li>
+                        </a>
+                        <a style="display: none;" href="./blog.php">
+                            <li>
                                 blog
-                            </a></li>
-                        <li><a href="./contact.php">
+                            </li>
+                        </a>
+                        <a href="./contact.php">
+                            <li>
                                 contact
-                            </a></li>
+                            </li>
+                        </a>
                     </div>
                 </div>
                 <div class="footer-item">
                     <div class="footer-service-menu">
                         <h1>services</h1>
-                        <li><a href="./cloud_service.php">
+                        <!-- <a href="./cloud_service.php">
+                            <li>
                                 Infrastructure and Cloud Services
-                            </a></li>
-                        <li><a href="./network_service.php">
+                            </li>
+                        </a> -->
+                        <a href="./network_service.php">
+                            <li>
                                 Network Services
-                            </a></li>
-                        <li><a href="./testing_service.php">
+                            </li>
+                        </a>
+                        <a href="./testing_service.php">
+                            <li>
                                 Testing Services
-                            </a></li>
-                        <li><a href="./business_service.php">
+                            </li>
+                        </a>
+                        <a href="./business_service.php">
+                            <li>
                                 Business Excellence Services
-                            </a></li>
-                        <li><a href="./integrated_service.php">
+                            </li>
+                        </a>
+                        <a href="./integrated_service.php">
+                            <li>
                                 Integrated Engineering Solutions
-                            </a></li>
-                        <li><a href="./perform_service.php">
+                            </li>
+                        </a>
+                        <!-- <a href="./perform_service.php">
+                            <li>
                                 Performance Engineering
-                            </a></li>
-                        <li><a href="./oracle_service.php">
+                            </li>
+                        </a> -->
+                        <a href="./oracle_service.php">
+                            <li>
                                 Oracle
-                            </a></li>
-                        <li><a href="./ai_service.php">
+                            </li>
+                        </a>
+                        <a href="./ai_service.php">
+                            <li>
                                 Artificial Intelligence
-                            </a></li>
-                        <li><a href="./cyber_service.php">
+                            </li>
+                        </a>
+                        <a href="./cyber_service.php">
+                            <li>
                                 Cyber Security
-                            </a></li>
-                        <li><a href="./automation_service.php">
+                            </li>
+                        </a>
+                        <a href="./automation_service.php">
+                            <li>
                                 Intelligent Automation
-                            </a></li>
+                            </li>
+                        </a>
                     </div>
                 </div>
             </div>
             <hr class="container-lg">
-            <div class="copyright-section container-sm text-uppercase">
+            <div class="copyright-section container-lg text-uppercase">
                 <p>
                 <h3>say hello</h3>
                 Interested to work with us? Drop a mail to:
-                <a href="mailto:abusid@ussbd.com?body='Hello,'" class="text-decoration-underline">us</a>
+                <a href="mailto:info@ussbd.com?body='Hello,'" class="text-decoration-underline">us</a>
                 </p>
                 <p class="mb-0">
-                    &#169; 2006-<?php echo date("y")?> ALL RIGHT RESERVED TO <a class="text-decoration-underline" href="www.ussbd.com">USSBD.COM</a>
+                    &#169; 2005-
+                    <?php echo date("y")?> ALL RIGHT RESERVED TO <a class="text-decoration-underline"
+                        href="www.ussbd.com">USSBD.COM</a>
                 </p>
             </div>
         </div>
@@ -101,7 +135,7 @@
 <script src="./asset/scripts/script.js"></script>
 <script src="./asset/scripts/popper.min.js"></script>
 <script src="./asset/scripts/bootstrap.min.js"></script>
-    <script src="./asset/scripts/animation.js"></script>
+<script src="./asset/scripts/animation.js"></script>
 <!-- <script src="./asset/scripts/videoScript.js"></script> -->
 
 </body>

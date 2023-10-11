@@ -188,8 +188,8 @@
         <h1>
           <i class="bi bi-asterisk"></i> list of <span>service:</span>
         </h1>
-        <div class="service-list-card">
-          <div class="service-list-item">
+        <!-- <div class="service-list-card"> -->
+          <!-- <div class="service-list-item">
             <div class="service-list-img">
               <img src="./asset/image/cloud vector img.png" alt="">
             </div>
@@ -206,7 +206,7 @@
                 learn more
               </button>
             </div>
-          </div>
+          </div> -->
           <div class="service-list-item">
             <div class="service-list-img">
               <img src="./asset/image/network vector img.png" alt="">
@@ -261,7 +261,7 @@
               </button>
             </div>
           </div>
-        </div>
+        <!-- </div> -->
       <div class="service-list-item">
         <div class="service-list-img">
           <img src="./asset/image/integred vector img.png" alt="">
@@ -280,7 +280,7 @@
           </button>
         </div>
       </div>
-      <div class="service-list-item">
+      <!-- <div class="service-list-item">
         <div class="service-list-img">
           <img src="./asset/image/parform vector img.png" alt="">
         </div>
@@ -297,7 +297,7 @@
             learn more
           </button>
         </div>
-      </div>
+      </div> -->
       <div class="service-list-item">
         <div class="service-list-img">
           <img src="./asset/image/oracle vector img.png" alt="">
@@ -371,33 +371,7 @@
         </div>
       </div>
       </div>
-      <div class="all-service-detail">
-        <div class="service-speech">
-          <div class="speeker-img">
-            <img src="./asset/image/abu bakkar siddiq sir.webp" alt="MD" />
-          </div>
-          <div class="speech-heading text-uppercase">
-            Massage from director
-          </div>
-          <div class="speeker-speech text-capitalize">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
-            esse, quod ea ad atque sunt sit officiis molestiae amet perferendis
-            architecto animi nobis praesentium. Totam necessitatibus et soluta
-            officiis quidem. Id nobis reiciendis labore ratione. Sapiente
-            perferendis quos impedit, culpa maiores beatae, odit saepe incidunt
-            aperiam quae consequuntur non natus quaerat quia eligendi
-            dignissimos quasi totam esse rerum qui! Modi.
-          </div>
-          <div class="speech-btn text-capitalize">
-            <button class="btn-speech btn-speech-active">
-              make an appointment
-            </button>
-            <button class="btn-speech" onclick="location='contact.php'">
-              Contact us
-            </button>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
 </div>

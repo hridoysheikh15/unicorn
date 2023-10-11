@@ -254,6 +254,78 @@
   background: var( --color-heading-subtag);
 }
 
+/* massage from managing director */
+
+.btn-speech {
+  background-color: transparent;
+  border: none;
+  color: var(--color-heading-subtag);
+  font-weight: 700;
+  position: relative;
+  padding: 5px;
+  transition: 0.3s all ease-out;
+  border-radius: 5px;
+}
+
+.btn-speech:hover{
+  background-color: var(--color-heading-subtag);
+  color: var(--color-light);
+  transition: 0.5s all ease-in;
+}
+
+.btn-speech::before, .btn-speech::after{
+  position: absolute;
+  left: 0;
+  height: 35%;
+  width: 100%;
+  border: 2px solid var(--color-heading-subtag);
+  content: "";
+  transition: 0.5s all ease-out;
+  border-radius: 5px 0px;
+}
+
+.btn-speech::before{
+  top: 0;
+  border-bottom: none;
+}
+
+.btn-speech::after{
+  bottom: 0;
+  border-top: none;
+}
+
+.btn-speech:hover::after, .btn-speech:hover::before{
+  height: 50%;
+  transition: 0.3s all ease-in;
+}
+
+.btn-speech-active{
+  background-color: var(--color-heading-subtag);
+  color: var(--color-light);
+  transition: 0.5s all ease-in;
+}
+
+.all-service-detail {
+  text-align: justify;
+  padding-block: 3rem;
+}
+
+.speeker-img img{
+  border-radius: 15px;
+  margin-block: 1rem;
+}
+
+.speech-heading {
+  font-size: var(--font-md);
+  padding-bottom: 1rem;
+}
+
+.speeker-speech {
+  line-height: 30px;
+  padding-bottom: 1rem;
+}
+
+
 /* partner list */
 .overflow-x-scroll {
     overflow-x: scroll;

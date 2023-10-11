@@ -1,3 +1,8 @@
+
+window.addEventListener("scroll", ()=>{
+  console.log(window.screenY);
+})
+
 // preloader
 
 window.addEventListener("load", () => {
@@ -28,7 +33,7 @@ $(document).ready(function () {
   // about-company-section
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 1200) {
+    if ($(this).scrollTop() > 1300) {
       $(".about-company-section").addClass("scroller_up");
     }
   });
@@ -36,13 +41,13 @@ $(document).ready(function () {
   // service left right animation
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 2200) {
+    if ($(this).scrollTop() > 2500) {
       $(".service-list-left .service-content").addClass("scroller_left");
     }
   });
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 2300) {
+    if ($(this).scrollTop() > 2600) {
       $(".service-list-right .service-content").addClass("scroller_right");
     }
   });
@@ -50,14 +55,14 @@ $(document).ready(function () {
   // choosing-section
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 4280) {
+    if ($(this).scrollTop() > 4600) {
       $(".choosing-section").addClass("scroller_up");
     }
   });
   // achivment
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 6710) {
+    if ($(this).scrollTop() > 6850) {
       $(".achieve").addClass("scroller_up");
     }
   });
@@ -65,7 +70,7 @@ $(document).ready(function () {
   // project number counter
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 1900) {
+    if ($(this).scrollTop() > 1920) {
       let counters = document.querySelectorAll(".counting");
       const speed = 400;
       counters.forEach((counter) => {

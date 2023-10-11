@@ -30,15 +30,15 @@
         </i>
     </p>
     <p>
-        Contact us using the form below, or directly via phone +880 171 7006 925 or email <a
-            href="mailto:abusud@ussbd.com">abusud@ussbd.com</a>.
+        Contact us using the form below, or directly via phone +880-2-9360346 or email <a
+            href="mailto:info@ussbd.com">info@ussbd.com</a>.
     </p>
     <hr>
 </div>
 
 <div class="formsection">
     <div class="form">
-        <form>
+        <form id="contactForm">
             <div class="input-row">
                 <div class="col1">
                     <label for="fname">
@@ -345,14 +345,16 @@
                     <textarea name="comment" id="comment" rows="10"></textarea>
                 </div>
             </div>
+        </form>
             <div class="rows">
                 <div class="col">
-                    <input type="submit" value="Submit">
+                    <button id="submitBtn">Submit</button>
                 </div>
             </div>
-        </form>
     </div>
 </div>
+
+<script src="./asset/scripts/smpt.js"></script>
 
 <?php
     include "./footer.php";

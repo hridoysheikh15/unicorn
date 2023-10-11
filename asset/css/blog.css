@@ -1,0 +1,49 @@
+/* about css  */
+
+.aboutTop {
+    position: relative;
+    height: 500px;
+  }
+  
+  .img-about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .img-about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .aboutTop-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #3337;
+  }
+  
+  .midTag {
+    color: var(--color-light);
+    text-align: center;
+  }
+  
+  .midTag .text-uppercase {
+    font-size: var(--font-lg);
+    text-shadow: 2px 2px #333;
+  }
+  
+  .midTag .text-capitalize {
+    font-size: var(--font-sm);
+  }
+  
+  .about-mid-blog {
+    max-width: 650px;
+  }
+  

@@ -29,22 +29,19 @@ include 'header.php';
       <div class="about-content">
         <div class="about-text">
           <p class="about-head-tag">
-            We’ve been working all <br />these <?php echo $serviceYear ?>+ years.
+            We’ve been working all <br />these
+            <?php echo $serviceYear ?>+ years.
           </p>
           <p class="about-mid-blog">
-            Unicorn Software And Solution Bangladesh – Best website design
-            company in Bangladesh. A quality experience team with <?php echo $serviceYear ?>+ years
-            experience. Over the last <?php echo $serviceYear ?> years, we have built many excellent
-            websites and Digital Marketing for brand-new startups And also we
-            have so many happy lovely customers. Our goal is to improve our
-            client’s Return on Investment, through capable systems to facilitate
-            business productivity and profitability. Your goals are our
-            priority; At Vital, we believe in building strong brands, good clean
-            design, well-crafted content, and integrated strategies. Best of
-            all, the marketing we create doesn’t just look great—it works. We
-            help you ambitious businesses like yours generate more profits by
-            building awareness, driving web traffic, connecting with customers,
-            and growing overall sales. Then contact by email or give us a call.
+            UNICORN SOFTWARE & SOLUTIONS LTD. has established itself as one of
+            the most reliable software and IT solutions companies in Bangladesh
+            through its commitment and dedication towards quality, innovation
+            and customer satisfaction. At Unicorn, a group of hard working young
+            talents driven by intelligence, taste and patience transform needs
+            and dreams into reality by their technical knowledge and expertise.
+            We believe that proper utilization of digitalization and information
+            management may change the current world towards positive directions.
+            We have been working towards this goal since the start.
           </p>
           <p class="about-slogan">
             Our slogan was: <br /><span
@@ -83,8 +80,8 @@ include 'header.php';
           <div class="identity-paragraph-sub-body pe-md-1">
             <h3>Our Mission</h3>
             <p>
-              Accelerate innovation with world-class tech teams. We help
-              businesses elevate their value.
+              Our mission is to become one of the top most quality companies in
+              the software world by ensuring quality and generating ideas.
             </p>
           </div>
           <div class="identity-paragraph-sub-body ps-md-1">
@@ -227,9 +224,33 @@ include 'header.php';
   </div>
 </div>
 
+<!-- massage from managing director -->
+
+<div class="all-service-detail container-lg">
+  <div class="service-speech">
+    <div class="speeker-img">
+      <img src="./asset/image/abu bakkar siddiq sir.webp" alt="MD" />
+    </div>
+    <div class="speech-heading text-uppercase">Massage from director</div>
+    <div class="speeker-speech text-capitalize">
+      Our mission is to become one of the top most quality companies in the
+      software world by ensuring quality and generating ideas. We have our
+      primary focus kept on maintaining R & D on the futuristic domains. We are
+      planning to setup several Offshore Development Centers (ODC) around the
+      world through overseas marketing effort.
+    </div>
+    <div class="speech-btn text-capitalize">
+      <button class="btn-speech btn-speech-active">make an appointment</button>
+      <button class="btn-speech" onclick="location='contact.php'">
+        Contact us
+      </button>
+    </div>
+  </div>
+</div>
+
 <!-- our employee details -->
 
-<div class="our-employee">
+<!-- <div class="our-employee">
   <div class="color: var(--color-light);">
     <div class="choosing-about-content-heading">
       <h6 class="text-uppercase py-5">REASON TO CHOOSE US</h6>
@@ -463,7 +484,7 @@ include 'header.php';
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- our clint company -->
 
@@ -476,43 +497,43 @@ include 'header.php';
       </h1>
     </div>
     <div class="overflow-x-scroll">
-        <div class="partner-gov mt-5" id="partner_slider">
-            <img
-              src="./asset/image/partner-10.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <img
-              src="./asset/image/partner-9.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <img
-              src="./asset/image/partner-8.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <img
-              src="./asset/image/partner-7.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <img
-              src="./asset/image/partner-6.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <img
-              src="./asset/image/partner-5.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <img
-              src="./asset/image/partner-1.webp"
-              alt="partner"
-              class="partner-logo"
-            />
-            <!-- <img
+      <div class="partner-gov mt-5" id="partner_slider">
+        <img
+          src="./asset/image/partner-10.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <img
+          src="./asset/image/partner-9.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <img
+          src="./asset/image/partner-8.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <img
+          src="./asset/image/partner-7.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <img
+          src="./asset/image/partner-6.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <img
+          src="./asset/image/partner-5.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <img
+          src="./asset/image/partner-1.webp"
+          alt="partner"
+          class="partner-logo"
+        />
+        <!-- <img
               src="./asset/image/partner-4.webp"
               alt="partner"
               class="partner-logo"
@@ -527,7 +548,7 @@ include 'header.php';
               alt="partner"
               class="partner-logo"
             /> -->
-          </div>
+      </div>
     </div>
   </div>
 </section>

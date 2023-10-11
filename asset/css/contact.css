@@ -124,12 +124,13 @@ label {
 }
 
 label,
-input {
+input, #submitBtn {
   display: block;
   font-family: "Montserrat", sans-serif;
+  outline: none;
 }
 
-input,
+input, #submitBtn,
 #country {
   padding: 10px 16px;
   width: 100%;
