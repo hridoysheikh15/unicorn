@@ -144,7 +144,8 @@ input, #submitBtn,
 
 @media (max-width: 685px) {
   .row,
-  .rows {
+  .rows, 
+  .input-row {
     display: block;
   }
 

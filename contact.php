@@ -70,9 +70,9 @@
             <div class="rows">
                 <div class="col">
                     <label for="country">
-                        Country<span style="color: red;">*</span>
+                        Country
                     </label>
-                    <select required aria-label="Country" name="country" id="country">
+                    <select aria-label="Country" name="country" id="country">
                         <option value="none" selected disabled>Please select</option>
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Åland Islands">Åland Islands</option>
