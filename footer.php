@@ -36,7 +36,7 @@
                                 about us
                             </li>
                         </a>
-                        <a style="display: none;" href="./portfolio.php">
+                        <a  href="./portfolio.php">
                             <li>
                                 portfolio
                             </li>

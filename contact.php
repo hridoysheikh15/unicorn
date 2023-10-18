@@ -38,13 +38,13 @@
 
 <div class="formsection">
     <div class="form">
-        <form id="contactForm">
+        <form id="contact-form">
             <div class="input-row">
                 <div class="col1">
-                    <label for="fname">
+                    <label for="fname" id="user_name">
                         First Name<span style="color: red;">*</span>
                     </label>
-                    <input required type="text" name="fname" id="fname">
+                    <input required type="text" name="fname" id="name">
                 </div>
                 <div class="col2">
                     <label for="lname">
@@ -67,7 +67,7 @@
                     <input type="number" name="mobile" id="mobile">
                 </div>
             </div>
-            <div class="rows">
+            <!-- <div class="rows">
                 <div class="col">
                     <label for="country">
                         Country
@@ -328,7 +328,7 @@
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
                 </div>
-            </div>
+            </div> -->
             <div class="rows">
                 <div class="col">
                     <label for="subject">
@@ -342,20 +342,50 @@
                     <label for="comment">
                         Comment<span style="color: red;">*</span>
                     </label>
-                    <textarea name="comment" id="comment" rows="10"></textarea>
+                    <textarea name="comment" id="comment" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="col">
+                    <input type="submit" value="Submit">
                 </div>
             </div>
         </form>
-            <div class="rows">
+            <!-- <div class="rows">
                 <div class="col">
                     <button id="submitBtn">Submit</button>
                 </div>
+            </div> -->
+    </div>
+    <!-- if success to send mail -->
+    <div class="mail-success-report container-lg mb-5">
+        <div class="success-report text-center">
+            <div class="card py-3">
+                <h3>
+                    <i class="bi bi-send-check"></i> Your Mail Send Successfully!!!
+                </h3>
             </div>
+        </div>
+    </div>
+    <!-- if faild to send mail -->
+    <div class="mail-faild-report container-lg mb-5">
+        <div class="faild-report text-center">
+            <div class="card py-3 text-capitalize">
+                <h3>
+                    <i class="bi bi-emoji-tear"></i> Sending Faild!!!
+                </h3>
+            </div>
+        </div>
     </div>
 </div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 <script src="./asset/scripts/smpt.js"></script>
 
 <?php
     include "./footer.php";
     ?>
+
+    
+    

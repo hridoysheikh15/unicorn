@@ -124,13 +124,15 @@ label {
 }
 
 label,
-input, #submitBtn {
+input,
+#submitBtn {
   display: block;
   font-family: "Montserrat", sans-serif;
   outline: none;
 }
 
-input, #submitBtn,
+input,
+#submitBtn,
 #country {
   padding: 10px 16px;
   width: 100%;
@@ -142,9 +144,38 @@ input, #submitBtn,
   border: 2px solid #6ecc76;
 }
 
+.mail-success-report {
+  opacity: 0;
+  display: none;
+  transition: 0.5s all ease;
+}
+
+.success-report {
+  color: var(--color-light);
+}
+
+.success-report .card {
+  background-color: #45aa4e;
+}
+
+
+.mail-faild-report {
+  opacity: 0;
+  display: none;
+  transition: 0.5s all ease;
+}
+
+.faild-report {
+  color: var(--color-light);
+}
+
+.faild-report .card {
+  background-color: #b62525;
+}
+
 @media (max-width: 685px) {
   .row,
-  .rows, 
+  .rows,
   .input-row {
     display: block;
   }

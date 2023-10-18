@@ -1,8 +1,3 @@
-
-window.addEventListener("scroll", ()=>{
-  console.log(window.screenY);
-})
-
 // preloader
 
 window.addEventListener("load", () => {

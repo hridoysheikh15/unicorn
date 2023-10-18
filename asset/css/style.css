@@ -50,32 +50,46 @@
 
 /* preloader css */
 
+:root{
+    --bg-color-loader: #f9f9f9;
+    --loader-color: #383838;
+    --loader-size: 30vh;
+}
+
 #preloader {
     position: fixed;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     z-index: 101;
+    background-color: var(--bg-color-loader);
 }
 
-#preloader img {
-    height: 100%;
-    width: 100%;
-    position: relative;
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--bg-color-loader);
+  color: #383838;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 20vh;
+  opacity: 0.8;
+}
+.loader span {
+  display: inline-block;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+.loader span:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
 }
 
-#preloader p {
-    position: absolute;
-    bottom: 20%;
-    font-size: 60px;
-    text-transform: uppercase;
-    color: var(--color-dark);
-    font-weight: 500;
-    font-family: var(--metal);
-    margin-inline: auto;
-    width: 100%;
-    text-align: center;
-    animation: fadeIn 1s infinite;
-}
 
 /* header css  */
 
@@ -915,9 +929,9 @@ footer {
         --flex: block;
     }
 
-    .logo img {
-        /* width: initial; */
-    }
+    /* .logo img {
+        width: initial;
+    } */
 
 
     .about-box {
